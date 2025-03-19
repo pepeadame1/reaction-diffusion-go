@@ -232,7 +232,7 @@ func main() {
 	}
 
 	ebiten.SetWindowSize(screenWidth*2, screenHeight*2)
-	ebiten.SetWindowTitle("Game of Life (Ebitengine Demo)")
+	ebiten.SetWindowTitle("Reaction Diffusion")
 	if err := ebiten.RunGame(g); err != nil {
 		log.Fatal(err)
 	}
